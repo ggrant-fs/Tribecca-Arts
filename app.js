@@ -1,16 +1,25 @@
 const express = require('express');
 const morgan = require('morgan')
-const port = 8080;
 
 const app = express();
 
-//middleware 
+//middleware functions:
 app.use(morgan('dev'));
 app.use(express.json());
 //express.static
 
-app.listen(port,()=>{
-    console.log(`Server is running on port ${port}`)
+
+//api endpoints (lines 12-23)
+app.get('/api/v1/art/paintings',(req,res)=>{
+
+});;
+
+app.get('/api/v1/art/sculptures',(req,res)=>{
+
+})
+
+app.get('api/v1/art/jewelry',(req,res)=>{
+
 })
 
 

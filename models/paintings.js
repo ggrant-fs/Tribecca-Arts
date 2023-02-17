@@ -10,10 +10,10 @@ const PaintingsSchema = new mongoose.Schema({
     caption:{
         type:String,
         required:[true,'A painting must have short descriptive caption to be valid'],
-        maxLength:[100,'captions can not be longer than 40 characters'],
-        minLength:[10,'captions can not be shroter than 10 characters']
+        maxLength:[100,'Captions can not be longer than 100 characters'],
+        minLength:[10,'Captions can not be shroter than 10 characters']
     }
-});
+});//price
 
 const Painting = mongoose.model('Painting',PaintingsSchema);
 

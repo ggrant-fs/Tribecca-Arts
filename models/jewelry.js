@@ -10,9 +10,10 @@ const JewelrySchema = new mongoose.Schema({
     caption:{
         type:String,
     required:[true,'All jewelry must a have short description to be valid'],
-    maxLength:[100,'captions can not be longer than 40 characters'],
-    minLength:[10,'captions can not be shorter than 10 characters']
+    maxLength:[100,'Captions can not be longer than 100 characters'],
+    minLength:[10,'Captions can not be shorter than 10 characters']
     }
+    //price
 });
 
 const Jewelry = mongoose.model('Jewelry',JewelrySchema);

@@ -1,5 +1,8 @@
 const express = require('express');
 const morgan = require('morgan')
+const jewelryRouter =require('./routes/jewelry');
+const paintingsRouter = require('./routes/paintings');
+const sculptureRouter = require('./routes/sculptures');
 
 const app = express();
 
@@ -9,18 +12,8 @@ app.use(express.json());
 //express.static
 
 
-//api endpoints (lines 12-23)
-app.get('/api/v1/art/paintings',(req,res)=>{
-
-});;
-
-app.get('/api/v1/art/sculptures',(req,res)=>{
-
-})
-
-app.get('api/v1/art/jewelry',(req,res)=>{
-
-})
-
+app.use('/api/v1/art/paintings',paintingsRouter);
+app.use('/api/v1/art/jewelry',jewelryRouter);
+app.use('/api/v1/arts/sculpture',sculptureRouter)
 
 module.exports = app;

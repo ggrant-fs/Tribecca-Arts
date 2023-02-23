@@ -1,11 +1,13 @@
-import Header from './componenets/Header';
-import Footer from './componenets/Footer';
+// import Header from './componenets/Header';
+// import Footer from './componenets/Footer';
+import Layout from "./componenets/Layout";
 
 function App() {
   return (
     <div className="App">
-      <Header/>
-      <Footer/>
+      {/* <Header/>
+      <Footer/> */}
+      <Layout/>
     </div>
   );
 }

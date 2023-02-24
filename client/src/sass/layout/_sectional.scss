@@ -1,0 +1,8 @@
+@use'../abstracts/mixins';
+
+.sectional{
+    display:block;
+    margin:auto;
+    @include mixins.size(90%,1.88rem);
+    background-color: red;
+}

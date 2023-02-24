@@ -1,0 +1,6 @@
+@use'../abstracts/mixins';
+
+.main-banner{
+    @include mixins.size(100%,20rem);
+    background-color: rgb(244, 255, 127);
+}

@@ -6,7 +6,9 @@
 @use'abstracts/placeholders';
 @use'abstracts/variables';
 
-@use'layout/Footer';
-@use'layout/Header';
 @use'layout/Layout';
+@use'layout/Header';
+@use'layout/Banner';
+@use'layout/sectional';
+@use'layout/Footer';
 @use'layout/Nav';

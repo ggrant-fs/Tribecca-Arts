@@ -1,10 +1,9 @@
+@use'../abstracts/mixins';
+
 .footer{
     display:flex;
     flex-direction: row;
-    position:static;
-    bottom:0%;
-    left:0%;
-    height:15rem;
-    width:100%;
+    @include mixins.footer-position(static,0%,0%);
+    @include mixins.size(100%, 15rem);
     background-color: black;
 }

@@ -1,10 +1,16 @@
 // ================
 // font-size in rem
 // ================
-@mixin font-size-rem($ft-size,$base: 16){
-    font-size: ($ft-size/$base) * 1rem;
+@mixin rem($value,$base: 16){
+    font-size: ($value/$base) * 1rem;
 }
 
+//================
+//font-size in px
+//================
+@mixin px($px){
+    font-size: $px * 1px;
+}
 
 
 // ===================

@@ -2,5 +2,9 @@
 
 .main-banner{
     @include mixins.size(100%,20rem);
+
+    //move the background-image to a _home.scss and 
+    //use it to pass it through css props to the Layout componet
+    // which has the Banner Compoent inside (props drilling)
     background-image: url('https://i.imgur.com/MLZiFDt.jpg');
 }

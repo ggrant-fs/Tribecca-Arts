@@ -1,5 +1,6 @@
 import React from 'react';
 import Layout from '../componenets/Layout';
+
 import Sectional from '../componenets/Sectional';
 const Home =(props)=>{
     return(

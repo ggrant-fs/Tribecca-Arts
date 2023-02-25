@@ -4,5 +4,5 @@
     display:block;
     margin:auto;
     background-color: red;
-    @include mixins.size(90%,1.88rem);
+    @include mixins.size(100%,1.88rem);
 }

@@ -1,0 +1,11 @@
+@use'../abstracts/mixins';
+
+
+.featured-container{
+   display: flex;
+   flex-direction: row;
+   justify-content: center;
+   @include mixins.size(100%,18.75rem);
+   background-color: blue;
+   
+}

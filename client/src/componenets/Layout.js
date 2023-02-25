@@ -7,7 +7,7 @@ const Layout =(props) =>{
     return (
         <Fragment>
           <Header/>
-          <Banner/>
+          <Banner bannerImg={props.image} />
              {props.children}
           <Footer/>
         </Fragment>

@@ -1,9 +1,10 @@
 @use'../abstracts/mixins';
+@use'../abstracts/variables';
 
 .main-header{
     display: flex;
     flex-direction: row;
     @include mixins.header-position(static,0%,0%);
     @include mixins.size(100%,3rem);
-    background-color: aqua;
+    background-color: variables.$header;
 }

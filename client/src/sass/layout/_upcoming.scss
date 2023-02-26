@@ -1,0 +1,16 @@
+@use'../abstracts/mixins';
+
+.upcoming-auctions{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    @include mixins.size(100%,20rem);
+    background-color: darkgray;
+   .upcoming{
+    &__date{
+       @include mixins.size(23.75rem, 15.50rem);
+       background-color: antiquewhite;
+    }
+   }
+}

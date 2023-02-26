@@ -5,13 +5,6 @@
     font-size: ($value/$base) * 1rem;
 }
 
-//================
-//font-size in px
-//================
-@mixin px($px){
-    font-size: $px * 1px;
-}
-
 
 // ===================
 // Width and Height

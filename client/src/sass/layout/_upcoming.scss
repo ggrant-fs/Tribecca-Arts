@@ -12,5 +12,8 @@
        @include mixins.size(23.75rem, 15.50rem);
        background-color: antiquewhite;
     }
+    &__imgs{
+      @include mixins.size(23.75rem, 15.50rem);
+    }
    }
 }

@@ -77,6 +77,10 @@ body {
   height: 15.5rem;
   background-color: antiquewhite;
 }
+.upcoming-auctions .upcoming__imgs {
+  width: 23.75rem;
+  height: 15.5rem;
+}
 
 .footer {
   display: flex;

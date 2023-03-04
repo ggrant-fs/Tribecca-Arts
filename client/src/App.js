@@ -1,13 +1,13 @@
+import {Route} from 'react-router-dom';
 import Home from "./pages/Home";
-// import Layout from "./componenets/Layout";
+
 
 function App() {
   return (
     <div className="App">
-      {/* <Header/>
-      <Footer/> */}
-      {/* <Layout/> */}
-      <Home/>
+         <Route exact path='/'>
+           <Home/>
+         </Route>
     </div>
   );
 }

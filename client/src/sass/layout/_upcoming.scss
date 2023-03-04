@@ -6,7 +6,7 @@
     justify-content: space-around;
     align-items: center;
     @include mixins.size(100%,20rem);
-    background-color: darkgray;
+    background-color: white;
    .upcoming{
     &__date{
        @include mixins.size(23.75rem, 15.50rem);

@@ -3,6 +3,8 @@
 .sectional{
     display:block;
     margin:auto;
-    background-color: red;
+    background-color: #d7c26f;
+    // background-color: rgba(228, 228, 228, 0.942);
     @include mixins.size(100%,1.88rem);
+    
 }

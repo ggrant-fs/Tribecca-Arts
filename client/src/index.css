@@ -13,7 +13,7 @@ body {
   top: 0%;
   left: 0%;
   width: 100%;
-  height: 3rem;
+  height: 2.5rem;
   background-color: #d7c26f;
 }
 
@@ -29,7 +29,7 @@ body {
 .sectional {
   display: block;
   margin: auto;
-  background-color: red;
+  background-color: #d7c26f;
   width: 100%;
   height: 1.88rem;
 }
@@ -41,7 +41,7 @@ body {
   align-items: center;
   width: 100%;
   height: 18.75rem;
-  background-color: blue;
+  background-color: white;
 }
 .featured-container .featured__jewelry {
   width: 15.5rem;
@@ -66,7 +66,7 @@ body {
   align-items: center;
   width: 100%;
   height: 20rem;
-  background-color: darkgray;
+  background-color: white;
 }
 .upcoming-auctions .upcoming__date {
   width: 23.75rem;
@@ -82,7 +82,7 @@ body {
   left: 0%;
   width: 100%;
   height: 15rem;
-  background-color: black;
+  background-color: #d7c26f;
 }
 
 /*# sourceMappingURL=index.css.map */

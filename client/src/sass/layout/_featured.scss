@@ -25,5 +25,9 @@
          @include mixins.size(variables.$def-item-wth, variables.$def-item-ht);
          background-color: darkorange;
       }
+
+      &__img{
+         @include mixins.size(variables.$def-item-wth, variables.$def-item-ht);
+      }
    }
 }

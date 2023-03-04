@@ -13,17 +13,17 @@
    .featured{
       &__jewelry{
          @include mixins.size(variables.$def-item-wth, variables.$def-item-ht);
-         background-color: darkmagenta;
+         box-shadow: variables.$def-box-shadow;
       }
 
       &__paintings{
          @include mixins.size(variables.$def-item-wth, variables.$def-item-ht);
-         background-color: aquamarine;
+         box-shadow: variables.$def-box-shadow;
       }
 
       &__sculptures{
          @include mixins.size(variables.$def-item-wth, variables.$def-item-ht);
-         background-color: darkorange;
+         box-shadow: variables.$def-box-shadow;
       }
 
       &__img{

@@ -46,17 +46,17 @@ body {
 .featured-container .featured__jewelry {
   width: 15.5rem;
   height: 15.5rem;
-  background-color: darkmagenta;
+  box-shadow: 10px 3px 15px #000000;
 }
 .featured-container .featured__paintings {
   width: 15.5rem;
   height: 15.5rem;
-  background-color: aquamarine;
+  box-shadow: 10px 3px 15px #000000;
 }
 .featured-container .featured__sculptures {
   width: 15.5rem;
   height: 15.5rem;
-  background-color: darkorange;
+  box-shadow: 10px 3px 15px #000000;
 }
 .featured-container .featured__img {
   width: 15.5rem;

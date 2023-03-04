@@ -10,20 +10,24 @@
    @include mixins.size(100%,18.75rem);
    background-color: white;
    
+   .featured-details{
+      box-shadow: variables.$def-box-shadow;
+   }
+
    .featured{
       &__jewelry{
          @include mixins.size(variables.$def-item-wth, variables.$def-item-ht);
-         box-shadow: variables.$def-box-shadow;
+         @extend .featured-details
       }
 
       &__paintings{
          @include mixins.size(variables.$def-item-wth, variables.$def-item-ht);
-         box-shadow: variables.$def-box-shadow;
+         @extend .featured-details
       }
 
       &__sculptures{
          @include mixins.size(variables.$def-item-wth, variables.$def-item-ht);
-         box-shadow: variables.$def-box-shadow;
+         @extend .featured-details
       }
 
       &__img{

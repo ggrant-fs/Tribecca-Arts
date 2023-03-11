@@ -1,19 +1,19 @@
 @use'../abstracts/mixins';
 
-.upcoming-auctions{
+.exhibition-container{
     display: flex;
     flex-direction: row;
     justify-content: space-around;
     align-items: center;
-    @include mixins.size(100%,20rem);
+    @include mixins.size(100%,30rem);
     background-color: white;
-   .upcoming{
-    &__date{
-       @include mixins.size(23.75rem, 15.50rem);
-       background-color: antiquewhite;
+   .exhibition{
+    &__img_wrapper{
+       @include mixins.size(100%, 100%);
+      //  background-color: antiquewhite;
     }
-    &__imgs{
-      @include mixins.size(23.75rem, 15.50rem);
+    &__img{
+      @include mixins.size(100%, 100%);
     }
    }
 }

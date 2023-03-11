@@ -1,7 +1,7 @@
 @use'../abstracts/mixins';
 
 .main-banner{
-    @include mixins.size(100%,20rem);
+    @include mixins.size(100%,27rem);
     .banner-img{
         @include mixins.size(100%,100%);
     }

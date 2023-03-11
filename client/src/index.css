@@ -14,12 +14,12 @@ body {
   left: 0%;
   width: 100%;
   height: 2.5rem;
-  background-color: #d7c26f;
+  background-color: #000000;
 }
 
 .main-banner {
   width: 100%;
-  height: 20rem;
+  height: 27rem;
 }
 .main-banner .banner-img {
   width: 100%;
@@ -29,7 +29,7 @@ body {
 .sectional {
   display: block;
   margin: auto;
-  background-color: #d7c26f;
+  background-color: #7e7a7a;
   width: 100%;
   height: 1.88rem;
 }
@@ -63,23 +63,22 @@ body {
   height: 15.5rem;
 }
 
-.upcoming-auctions {
+.exhibition-container {
   display: flex;
   flex-direction: row;
   justify-content: space-around;
   align-items: center;
   width: 100%;
-  height: 20rem;
+  height: 30rem;
   background-color: white;
 }
-.upcoming-auctions .upcoming__date {
-  width: 23.75rem;
-  height: 15.5rem;
-  background-color: antiquewhite;
+.exhibition-container .exhibition__img_wrapper {
+  width: 100%;
+  height: 100%;
 }
-.upcoming-auctions .upcoming__imgs {
-  width: 23.75rem;
-  height: 15.5rem;
+.exhibition-container .exhibition__img {
+  width: 100%;
+  height: 100%;
 }
 
 .footer {
@@ -90,7 +89,7 @@ body {
   left: 0%;
   width: 100%;
   height: 15rem;
-  background-color: #d7c26f;
+  background-color: #000000;
 }
 
 /*# sourceMappingURL=index.css.map */

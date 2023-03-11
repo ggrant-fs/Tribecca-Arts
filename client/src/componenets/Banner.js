@@ -1,4 +1,5 @@
 import React from 'react';
+// import videoBanner from '../videos/videoBanner.mp4';
 const Banner =(props)=>{
     return (
         <div className='main-banner'>

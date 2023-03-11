@@ -1,9 +1,10 @@
 @use'../abstracts/mixins';
+@use'../abstracts/variables';
 
 .footer{
     display:flex;
     flex-direction: row;
     @include mixins.footer-position(static,0%,0%);
     @include mixins.size(100%, 15rem);
-    background-color: #d7c26f;
+    background-color: variables.$footer;
 }

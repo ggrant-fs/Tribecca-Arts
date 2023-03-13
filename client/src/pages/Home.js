@@ -1,9 +1,9 @@
 import React,{Fragment} from 'react';
 import Layout from '../componenets/Layout';
-import photo from '../images/museum.jpeg';
+import photo from '../images/museum2.jpeg';
 import Sectional from '../componenets/Sectional';
 import Featured from '../componenets/Featured';
-import Upcoming from '../componenets/Upcoming';
+import Exhibitions from '../componenets/Exhibitions';
 const Home =(props)=>{
     return(
        <Fragment>
@@ -11,7 +11,7 @@ const Home =(props)=>{
          <Sectional/>
          <Featured/>
          <Sectional/>
-         <Upcoming/>
+         <Exhibitions/>
          </Layout>
        </Fragment>
     )

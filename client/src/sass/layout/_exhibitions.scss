@@ -1,0 +1,28 @@
+@use'../abstracts/mixins';
+
+.exhibition-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    width:100%;
+    background-color: white;
+
+   .exhibition{
+    &__img_wrapper{
+       @include mixins.size(100%, 100%);
+    }
+    &__img{
+      display: inline-block;
+      @include mixins.size(30%, 15rem);
+    }
+    &__description{
+      display: inline-block;
+      vertical-align: top;
+
+      .exhibition__title{
+        margin: 0;
+      }
+    }
+   }
+}

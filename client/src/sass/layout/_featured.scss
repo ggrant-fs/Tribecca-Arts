@@ -8,7 +8,7 @@
    justify-content: space-between;
    align-items: center;
    @include mixins.size(100%,18.75rem);
-   background-color: white;
+   background-color: rgb(235, 235, 235);
    
    .featured-details{
       box-shadow: variables.$def-box-shadow;

@@ -24,7 +24,6 @@ const Exhibitions =(props)=>{
               <hr/>
             </div>
           
-   {/* ==================================================================================   */}
             <div className="exhibition__img_wrapper">
               <img src={exhibition2} alt='' className='exhibition__img'/>
               <div className='exhibition__description'>
@@ -41,7 +40,7 @@ const Exhibitions =(props)=>{
               </div>
               <hr/>
             </div>
-   {/* ==================================================================================          */}
+
             <div className="exhibition__img_wrapper">
               <img src={exhibition3} alt='' className='exhibition__img'/>
               <div className='exhibition__description'>

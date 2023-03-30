@@ -66,6 +66,7 @@ body {
 .exhibition-container {
   display: flex;
   flex-direction: column;
+  flex-wrap: nowrap;
   justify-content: space-around;
   align-items: center;
   width: 100%;
@@ -86,6 +87,9 @@ body {
 }
 .exhibition-container .exhibition__description .exhibition__title {
   margin: 0;
+}
+.exhibition-container .exhibition__description .exhibition__paragraph {
+  width: 30rem;
 }
 
 .footer {

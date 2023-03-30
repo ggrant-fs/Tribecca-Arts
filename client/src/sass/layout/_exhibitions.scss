@@ -1,8 +1,9 @@
 @use'../abstracts/mixins';
-
+@use'../abstracts/variables';
 .exhibition-container{
     display: flex;
     flex-direction: column;
+    flex-wrap:nowrap;
     justify-content: space-around;
     align-items: center;
     width:100%;
@@ -22,6 +23,11 @@
 
       .exhibition__title{
         margin: 0;
+      }
+
+      .exhibition__paragraph{
+        width: 30rem;
+
       }
     }
    }

@@ -1,5 +1,6 @@
 @use'../abstracts/mixins';
 @use'../abstracts/variables';
+
 .exhibition-container{
     display: flex;
     flex-direction: column;
@@ -15,7 +16,7 @@
     }
     &__img{
       display: inline-block;
-      @include mixins.size(30%, 15rem);
+      @include mixins.size(30%, 12.5rem);
     }
     &__description{
       display: inline-block;
@@ -23,10 +24,17 @@
 
       .exhibition__title{
         margin: 0;
+        text-align: center;
+        font-family: variables.$def-font;
       }
 
       .exhibition__paragraph{
         width: 30rem;
+        margin: {
+          top:0%;
+          left:5%;
+        };
+        font-family: variables.$def-font;
 
       }
     }

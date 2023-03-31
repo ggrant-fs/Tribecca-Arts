@@ -10,15 +10,14 @@
     width:100%;
     background-color: white;
 
-   .exhibition{
-    &__img_wrapper{
+    .exhibition__img_wrapper{
        @include mixins.size(100%, 100%);
     }
-    &__img{
+    .exhibition__img{
       display: inline-block;
       @include mixins.size(30%, 12.5rem);
     }
-    &__description{
+    .exhibition__description{
       display: inline-block;
       vertical-align: top;
 
@@ -35,8 +34,21 @@
           left:5%;
         };
         font-family: variables.$def-font;
-
       }
     }
-   }
+    
+   //media quiery
+   @media (max-width:46.88rem){
+    .exhibition__img{
+     @include mixins.size(100%, 25.5rem);
+    }
+    .exhibition__paragraph{
+      width:18rem;
+      margin: {
+        left:0%;
+        bottom:0%;
+      }
+    }
+  }
 }
+

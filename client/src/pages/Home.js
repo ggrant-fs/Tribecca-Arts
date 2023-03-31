@@ -9,7 +9,7 @@ const Home =(props)=>{
        <Fragment>
          <Layout image={photo}>
          <Sectional/>
-         <Featured/>
+         {/* <Featured/> */}
          <Sectional/>
          <Exhibitions/>
          </Layout>

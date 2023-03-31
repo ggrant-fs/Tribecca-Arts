@@ -13,25 +13,23 @@
    .featured-details{
       box-shadow: variables.$def-box-shadow;
    }
-
-   .featured{
-      &__jewelry{
+      .featured__jewelry{
          @include mixins.size(variables.$def-item-wth, variables.$def-item-ht);
          @extend .featured-details
       }
 
-      &__paintings{
+      .featured__paintings{
          @include mixins.size(variables.$def-item-wth, variables.$def-item-ht);
          @extend .featured-details
       }
 
-      &__sculptures{
+      .featured__sculptures{
          @include mixins.size(variables.$def-item-wth, variables.$def-item-ht);
          @extend .featured-details
       }
 
-      &__img{
+      .featured__img{
          @include mixins.size(variables.$def-item-wth, variables.$def-item-ht);
       }
-   }
+
 }

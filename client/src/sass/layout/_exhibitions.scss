@@ -8,7 +8,7 @@
     justify-content: space-around;
     align-items: center;
     width:100%;
-    background-color: white;
+    background-color: #ffffff;
 
     .exhibition__img_wrapper{
        @include mixins.size(100%, 100%);
@@ -26,29 +26,33 @@
         text-align: center;
         font-family: variables.$def-font;
       }
-
+      
       .exhibition__paragraph{
         width: 30rem;
         margin: {
-          top:0%;
+          top:2%;
           left:5%;
         };
         font-family: variables.$def-font;
       }
     }
-    
-   //media quiery
+
+    @media (max-width:46.88rem){
+     .exhibition-container{
+       width:100vw;
+     }
+     .exhibition__img{
+      @include mixins.size(100%, 25.5rem);
+     }
+     .exhibition__img_wrapper{
+      overflow: hidden;
+     }
+   }
+
    @media (max-width:46.88rem){
-    .exhibition__img{
-     @include mixins.size(100%, 25.5rem);
-    }
-    .exhibition__paragraph{
-      width:18rem;
-      margin: {
-        left:0%;
-        bottom:0%;
-      }
-    }
-  }
+     .exhibition__description{
+       width:18rem;
+     }
+   }
 }
 

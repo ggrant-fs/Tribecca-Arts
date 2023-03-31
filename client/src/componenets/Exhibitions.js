@@ -28,6 +28,7 @@ const Exhibitions =(props)=>{
               <img src={exhibition2} alt='' className='exhibition__img'/>
               <div className='exhibition__description'>
                 <h1 className='exhibition__title'>Banksy</h1>
+                <div className='exhibition__paragraph__wrapper'>
                 <p className='exhibition__paragraph'>
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit, 
                 sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
@@ -37,6 +38,7 @@ const Exhibitions =(props)=>{
                 pariatur. Excepteur sint occaecat cupidatat non proident, sunt in 
                 culpa qui officia deserunt mollit anim id est laborum.
                 </p>
+                </div>
               </div>
               <hr/>
             </div>

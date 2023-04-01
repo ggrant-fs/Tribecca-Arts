@@ -21,13 +21,24 @@
       .featured__img{
          @include mixins.size(variables.$def-item-wth, variables.$def-item-ht);
       }
+      @media (max-width:46.88rem){
+       .featured-details{
+         box-shadow: none;
+       }
+       .featured__paintings{
+         @include mixins.size(85%, variables.$def-item-ht)
+       }
+       .featured__img{
+         @include mixins.size(100%, variables.$def-item-ht)
+       }
+      }
       
    }
-   
+ 
    @media (max-width:46.88rem){
       .featured-container{
          display: flex;
          flex-direction: column;
-         @include mixins.size(100%,100%);
+         @include mixins.size(25rem,100%);
       }
    }

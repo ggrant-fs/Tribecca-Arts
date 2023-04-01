@@ -7,13 +7,13 @@ const Featured =(props)=>{
     return(
        <Fragment>
        <div className='featured-container'>
-         <div className='featured__jewelry'>
+         <div className='featured__paintings'>
          <img src={painting2} alt='' className='featured__img'/>
          </div>
          <div className='featured__paintings'>
           <img src={painting} alt='' className='featured__img'/>
          </div>
-         <div className='featured__sculptures'>
+         <div className='featured__paintings'>
          <img src={painting3} alt='' className='featured__img'/>
          </div>
        </div>

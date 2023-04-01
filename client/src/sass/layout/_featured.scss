@@ -5,31 +5,29 @@
 .featured-container{
    display: flex;
    flex-direction: row;
-   justify-content: space-between;
+   justify-content: space-around;
    align-items: center;
    @include mixins.size(100%,18.75rem);
    background-color: rgb(235, 235, 235);
    
    .featured-details{
       box-shadow: variables.$def-box-shadow;
-   }
-      .featured__jewelry{
-         @include mixins.size(variables.$def-item-wth, variables.$def-item-ht);
-         @extend .featured-details
-      }
+   } 
 
       .featured__paintings{
          @include mixins.size(variables.$def-item-wth, variables.$def-item-ht);
          @extend .featured-details
       }
-
-      .featured__sculptures{
-         @include mixins.size(variables.$def-item-wth, variables.$def-item-ht);
-         @extend .featured-details
-      }
-
       .featured__img{
          @include mixins.size(variables.$def-item-wth, variables.$def-item-ht);
       }
-
-}
+      
+   }
+   
+   @media (max-width:46.88rem){
+      .featured-container{
+         display: flex;
+         flex-direction: column;
+         @include mixins.size(100%,100%);
+      }
+   }

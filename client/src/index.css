@@ -38,24 +38,16 @@ body {
 .featured-container {
   display: flex;
   flex-direction: row;
-  justify-content: space-between;
+  justify-content: space-around;
   align-items: center;
   width: 100%;
   height: 18.75rem;
   background-color: rgb(235, 235, 235);
 }
-.featured-container .featured-details, .featured-container .featured__sculptures, .featured-container .featured__paintings, .featured-container .featured__jewelry {
+.featured-container .featured-details, .featured-container .featured__paintings {
   box-shadow: 10px 3px 15px #000000;
 }
-.featured-container .featured__jewelry {
-  width: 15.5rem;
-  height: 15.5rem;
-}
 .featured-container .featured__paintings {
-  width: 15.5rem;
-  height: 15.5rem;
-}
-.featured-container .featured__sculptures {
   width: 15.5rem;
   height: 15.5rem;
 }
@@ -64,6 +56,14 @@ body {
   height: 15.5rem;
 }
 
+@media (max-width: 46.88rem) {
+  .featured-container {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 100%;
+  }
+}
 .exhibition-container {
   display: flex;
   flex-direction: column;

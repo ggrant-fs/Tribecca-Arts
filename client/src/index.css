@@ -92,6 +92,8 @@ body {
 }
 .exhibition-container .exhibition__img {
   display: inline-block;
+  margin-top: 0.5%;
+  margin-left: 1.5%;
   width: 30%;
   height: 12.5rem;
 }

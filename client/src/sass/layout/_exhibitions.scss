@@ -10,13 +10,17 @@
     width:100%;
     background-color: #ffffff;
 
+    
     .exhibition__img_wrapper{
        @include mixins.size(100%, 100%);
     }
     .exhibition__img{
       display: inline-block;
+      margin-top: .5%;
+      margin-left: 1.5%;
       @include mixins.size(30%, 12.5rem);
     }
+    
     .exhibition__description{
       display: inline-block;
       vertical-align: top;

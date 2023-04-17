@@ -125,9 +125,15 @@ body {
     width: 18rem;
   }
 }
+@media (max-width: 25.88rem) {
+  .exhibition-container .exhibition__img {
+    width: 97.5%;
+    height: 15.5rem;
+  }
+}
 @media (max-width: 23.44rem) {
   .exhibition-container .exhibition__img {
-    width: 98%;
+    width: 98.5%;
     height: 15.5rem;
   }
 }

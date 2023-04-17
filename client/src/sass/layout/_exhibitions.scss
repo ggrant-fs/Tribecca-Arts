@@ -56,9 +56,15 @@
      }
    }
 
+   @media(max-width:25.88rem){
+    .exhibition__img{
+      @include mixins.size(97.5%, 15.5rem);
+    }
+   }
+
    @media(max-width:23.44rem){
     .exhibition__img{
-      @include mixins.size(98%, 15.5rem);
+      @include mixins.size(98.5%, 15.5rem);
     }
    }
 }

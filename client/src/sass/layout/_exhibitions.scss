@@ -45,9 +45,6 @@
      .exhibition-container{
        width:100vw;
      }
-     .exhibition__img{
-      @include mixins.size(100%, 25.5rem);
-     }
      .exhibition__img_wrapper{
       overflow: hidden;
      }
@@ -57,6 +54,12 @@
      .exhibition__description{
        width:18rem;
      }
+   }
+
+   @media(max-width:23.44rem){
+    .exhibition__img{
+      @include mixins.size(98%, 15.5rem);
+    }
    }
 }
 

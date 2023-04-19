@@ -32,6 +32,8 @@
          @include mixins.size(100%, variables.$def-item-ht)
        }
       }
+
+      
       
    }
  
@@ -42,3 +44,10 @@
          @include mixins.size(25rem,100%);
       }
    }
+
+
+//   @media (max-width:23.44rem){
+//    .featured-container{
+//       display: none;
+//    }
+//   }

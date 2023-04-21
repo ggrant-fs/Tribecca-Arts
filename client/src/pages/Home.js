@@ -8,9 +8,13 @@ const Home =(props)=>{
     return(
        <Fragment>
          <Layout image={photo}>
-         <Sectional/>
+         <Sectional>
+          <h3 className="section-title">Featured Artist</h3>
+         </Sectional>
          <Featured/>
-         <Sectional/>
+         <Sectional>
+          <h3 className="section-title">New Exhibitions</h3>
+         </Sectional>
          <Exhibitions/>
          </Layout>
        </Fragment>

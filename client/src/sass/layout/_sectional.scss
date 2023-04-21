@@ -5,6 +5,11 @@
     margin:auto;
     background-color: #201f1f;
     // background-color: rgba(228, 228, 228, 0.942);
-    @include mixins.size(100%,1rem);
-    
+    @include mixins.size(100%,1.5rem);
+}
+
+.section-title{
+    width:20%;
+    margin:0 auto;
+    color:#ffffff;
 }

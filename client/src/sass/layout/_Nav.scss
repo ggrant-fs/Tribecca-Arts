@@ -9,5 +9,16 @@
         list-style: none;
         padding-left:30px;
         font-family:'Poiret One', cursive;
+
+        .activeStyling{
+            color:#a2a2a2;
+            text-decoration: underline;
+        }
+    }
+
+    .nav__item > a{
+        color:#ffffff;
+        text-decoration: none;
     }
 }
+

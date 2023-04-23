@@ -2,6 +2,7 @@ import {Route,Switch} from 'react-router-dom';
 import Home from "./pages/Home";
 import Art from "./pages/Art";
 import Tickets from './pages/Tickets';
+import Signup from './pages/SignUp';
 
 
 function App() {
@@ -16,6 +17,9 @@ function App() {
            </Route>
            <Route path="/tickets">
              <Tickets/>
+           </Route>
+           <Route path="/signup">
+            <Signup/>
            </Route>
           </Switch>
     </div>

@@ -184,6 +184,29 @@ body {
   }
 }
 
+.signup-form {
+  width: 18.25rem;
+  height: 100vh;
+  background-color: yellow;
+}
+.signup-form input[type=text],
+.signup-form input[type=email],
+.signup-form input[type=password] {
+  border-left: none;
+  border-right: none;
+  border-top: none;
+  margin-left: 20%;
+  margin-bottom: 0.13rem;
+}
+.signup-form .signup__btn {
+  background-color: #000000;
+  color: #ffffff;
+  width: 9.28rem;
+  height: 20px;
+  border-radius: 6px;
+  margin-left: 20%;
+}
+
 .footer {
   display: flex;
   flex-direction: row;

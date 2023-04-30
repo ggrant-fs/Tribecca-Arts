@@ -1,0 +1,15 @@
+@use'../abstracts/mixins';
+
+.art-container{
+   display:flex;
+   flex-direction: row;
+   justify-content: space-around;
+   align-items: center;
+   height:17.75rem;
+   .art__item{
+     width:15.25rem;
+     height:16rem;
+     background-color:red;
+   }
+}
+

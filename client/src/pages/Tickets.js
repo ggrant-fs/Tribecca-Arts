@@ -8,7 +8,6 @@ import ticketImg from '../images/museum.jpeg'
 const Tickets = () => {
   return (
     <Layout image={ticketImg}>
-
     </Layout>
   )
 }

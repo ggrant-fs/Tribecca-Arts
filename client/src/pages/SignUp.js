@@ -1,9 +1,22 @@
 import React, { useState } from 'react'
 import { Fragment } from 'react'
 import Header from '../componenets/Header';
-const SignUp = () => {
-  const [newMember,setNewMember] = useState('');
+import bannerimg from '../images/signupbanner.jpeg';
 
+const SignUp = () => {
+const [newMember,setNewMember] = useState('');
+
+const nameChangeHandler =(event) =>{
+
+ }
+
+ const emailChangeHandler =(event)=>{
+
+ }
+
+ const passwordChangeHandler =(event)=>{
+
+ }
 
  const onSubmitHander = (event) =>{
   event.preventDefault();
@@ -16,24 +29,27 @@ const SignUp = () => {
           <input 
           type='text' 
           placeholder='Name'
+          onChange={nameChangeHandler}
           />
         </div>
         <div>
           <input 
           type='email' 
           placeholder='Email'
+          onChange={emailChangeHandler}
           />
         </div>
         <div>
           <input 
           type='password' 
           placeholder='Password'
+          onChagne={passwordChangeHandler}
           />
         </div>
         <button className='signup__btn'>Sign Up</button>
       </form>
-      <div>
-
+      <div className="signup-banner">
+        <img className="signup__banner__img" src={bannerimg} alt=''/>
       </div>
     </Fragment>
   )

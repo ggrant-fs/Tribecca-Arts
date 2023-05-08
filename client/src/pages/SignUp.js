@@ -2,6 +2,8 @@ import React, { useState } from 'react';
 import { Fragment } from 'react';
 import SignUpImg from '../images/signupbanner.jpeg';
 import Header from '../componenets/Header';
+
+
 const SignUp = () => {
   const [newMember,setNewMember] = useState('');
 
@@ -32,7 +34,7 @@ const SignUp = () => {
           placeholder='Password'
           />
         </div>
-        <button className='signup__btn'>Sign Up</button>
+        <button type='submit' className='signup__btn'>Sign Up</button>
       </form>
       <div className='signup-banner'>
         <img className='signup__banner__img'src={SignUpImg} alt='' />

@@ -26,10 +26,15 @@ const artSlice = createSlice({
     }
 })
 
+const {apiRequest,apiRequestFailed,getArt} = artSlice.actions
 export  default artSlice.reducer
 
 const url = '/art';
 
 //action creators
-
-//get request
+export const loadArt = () => apiCall({
+    url,
+    onStart: apiRequest.type,
+    onSuccess: getArt.type,
+    onError: apiRequestFailed
+})

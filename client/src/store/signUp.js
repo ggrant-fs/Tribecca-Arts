@@ -7,7 +7,7 @@ const initialState ={
     error:null
 }
 
-//Redux Slice
+//react-redux slice
 const signUpSlice = createSlice({
     name:"signup",
     initialState,

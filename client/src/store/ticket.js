@@ -7,6 +7,7 @@ const initalState = {
     error:null
 }
 
+//react-redux slice
 const ticketSlice = createSlice({
     name:"ticket",
     initalState,

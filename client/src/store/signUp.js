@@ -23,7 +23,7 @@ export default signUpSlice.reducer
 
 const url = '/signup';
 
-//Action Creator:
+//Action Creator: 
 //=====post request=======//
 export const newUser = (signup) => apiCall({
         url,

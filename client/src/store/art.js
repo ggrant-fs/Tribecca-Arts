@@ -7,6 +7,7 @@ const initialState = {
     error: null
 }
 
+//react-redux slice
 const artSlice = createSlice({
     name:"art",
     initialState,
@@ -31,7 +32,7 @@ export  default artSlice.reducer
 
 const url = '/art';
 
-//Action Creators
+//Action Creators 
 //=====Get request=======//
 export const loadArt = () => apiCall({
     url,

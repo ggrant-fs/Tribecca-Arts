@@ -31,7 +31,8 @@ export  default artSlice.reducer
 
 const url = '/art';
 
-//action creators
+//Action Creators
+//=====Get request=======//
 export const loadArt = () => apiCall({
     url,
     onStart: apiRequest.type,

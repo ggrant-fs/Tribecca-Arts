@@ -1,9 +1,13 @@
 import { createSlice } from "@reduxjs/toolkit";
+import {apiCall} from './api';
 
 const initialState ={
     signup:[],
+    loading:false,
+    error:null
 }
 
+//Redux Slice
 const signUpSlice = createSlice({
     name:"signup",
     initialState,
@@ -14,4 +18,16 @@ const signUpSlice = createSlice({
     }
 })
 
+const {createUser} = signUpSlice.actions;
 export default signUpSlice.reducer
+
+const url = '/signup';
+
+//Action Creator:
+//=====post request=======//
+export const newUser = (signup) => apiCall({
+        url,
+        method:"POST",
+        data:signup,
+        onSuccess:createUser.type
+})

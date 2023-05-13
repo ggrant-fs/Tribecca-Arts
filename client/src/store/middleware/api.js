@@ -1,4 +1,4 @@
-import {axios} from 'axios';
+import axios from 'axios';
 import {apiCall} from '../api';
 
 const api = ({dispatch}) => next => async action =>{

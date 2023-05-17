@@ -1,38 +1,46 @@
 import React from 'react';
 import { Fragment } from 'react';
-import { useState } from 'react';
-import { useDispatch } from 'react-redux';
-import {newUser} from '../store/signUp';
+import {useState} from 'react';
 import SignUpImg from '../images/signupbanner.jpeg';
 import Header from '../componenets/Header';
 
 
 const SignUp = () => {
-  const [signup,setSignup] = useState({
-      name:"",
-      email:"",
-      password:""
-  });
- 
-  const {name,email,password} = signup;
+  const [name, setName] = useState('');
+  const [email,setEmail] = useState('');
+  const [password,setPassword] = useState('');
 
-  const dispatch = useDispatch();
+  const nameHandler = (event) =>{
+    event.preventDefault();
+    setName(event.target.value);
+  }
 
-  const onSubmitHander = (event) =>{
+  const emailHandler= (event)=>{
+    event.preventDefault();
+    setEmail(event.target.value);
+  }
+  
+ const passwordHandler = (event) =>{
+  event.preventDefault();
+  setPassword(event.target.value);
+ }
+
+  const submitHander = (event) =>{
    event.preventDefault();
-   dispatch(newUser({signup: signup}))
+
  }
   return (
 
     <Fragment>
      <Header/>
-      <form onSubmit={onSubmitHander} className='signup-form'>
+      <form onSubmit={submitHander} className='signup-form'>
         <div>
           <input 
           type='text' 
           placeholder='Name'
           value={name}
-          //onchange
+          onChange={nameHandler}
+          required
           />
         </div>
         <div>
@@ -40,7 +48,8 @@ const SignUp = () => {
           type='email' 
           placeholder='Email'
           value={email}
-          //onchange
+          onChange={emailHandler}
+          required
           />
         </div>
         <div>
@@ -48,7 +57,8 @@ const SignUp = () => {
           type='password' 
           placeholder='Password'
           value={password}
-          //onchange
+          onChange={passwordHandler}
+          required
           />
         </div>
         <button type='submit' className='signup__btn'>Sign Up</button>

@@ -27,7 +27,9 @@ const SignUp = () => {
 
   const submitHander = (event) =>{
    event.preventDefault();
-
+   setName('');
+   setEmail('');
+   setPassword('');
  }
   return (
 
@@ -61,7 +63,9 @@ const SignUp = () => {
           required
           />
         </div>
-        <button type='submit' className='signup__btn'>Sign Up</button>
+        <div className='btn-container'>
+          <button type='submit' className='signup__btn'>Sign Up</button>
+        </div>
       </form>
       <div className='signup-banner'>
         <img className='signup__banner__img'src={SignUpImg} alt='' />

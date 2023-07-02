@@ -10,37 +10,46 @@ const Art = () => {
     <main>
     <Sectional/>
      <div className='art-container'>
-        <div className='art__item'>
-          {/* <img src={} alt=''/> */}
-        </div>
-        <div className='art__item'>
-          {/* <img src={} alt=''/> */}
-        </div>
-        <div className='art__item'>
-          {/* <img src={} alt=''/> */}
-        </div>
+        <figure className='art__item'>
+          <img className="art__img" src={'https://i.imgur.com/UYVmWUy.jpg'} alt=''/>
+          <figcaption>caption of painting</figcaption>
+        </figure>
+        <figure className='art__item'>
+          <img className="art__img" src={'https://i.imgur.com/UYVmWUy.jpg'} alt=''/>
+          <figcaption>caption of painting</figcaption>
+        </figure>
+        <figure className='art__item'>
+          <img className="art__img" src={'https://i.imgur.com/UYVmWUy.jpg'} alt=''/>
+          <figcaption>caption of painting</figcaption>
+        </figure>
      </div>
      <div className='art-container'>
-        <div className='art__item'>
-          {/* <img src={} alt=''/> */}
-        </div>
-        <div className='art__item'>
-          {/* <img src={} alt=''/> */}
-        </div>
-        <div className='art__item'>
-          {/* <img src={} alt=''/> */}
-        </div>
+     <figure className='art__item'>
+          <img className="art__img" src={'https://i.imgur.com/UYVmWUy.jpg'} alt=''/>
+          <figcaption>caption of painting</figcaption>
+        </figure>
+        <figure className='art__item'>
+          <img className="art__img" src={'https://i.imgur.com/UYVmWUy.jpg'} alt=''/>
+          <figcaption>caption of painting</figcaption>
+        </figure>
+        <figure className='art__item'>
+          <img className="art__img" src={'https://i.imgur.com/UYVmWUy.jpg'} alt=''/>
+          <figcaption>caption of painting</figcaption>
+        </figure>
      </div>
      <div className='art-container'>
-        <div className='art__item'>
-          {/* <img src={} alt=''/> */}
-        </div>
-        <div className='art__item'>
-          {/* <img src={} alt=''/> */}
-        </div>
-        <div className='art__item'>
-          {/* <img src={} alt=''/> */}
-        </div>
+       <figure className='art__item'>
+          <img className="art__img" src={'https://i.imgur.com/UYVmWUy.jpg'} alt=''/>
+          <figcaption>caption of painting</figcaption>
+        </figure>
+        <figure className='art__item'>
+          <img className="art__img" src={'https://i.imgur.com/UYVmWUy.jpg'} alt=''/>
+          <figcaption>caption of painting</figcaption>
+        </figure>
+        <figure className='art__item'>
+          <img className="art__img" src={'https://i.imgur.com/UYVmWUy.jpg'} alt=''/>
+          <figcaption>caption of painting</figcaption>
+        </figure>
      </div>
     </main>
    </Layout>

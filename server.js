@@ -1,13 +1,12 @@
 const mongoose = require('mongoose');
-//**task */
-//include dotenv for enviroment variables
+const dotenv = require('dotenv');
+dotenv.config({path:'./config.env'})
 const app = require('./app');
-//**task */
-//include enviroment variable with port
-const port = 8080;
-//**task */
-//put the mongoDB connection string in a variable to not expose the db connection
-mongoose.connect('mongodb+srv://Mon_Data_Base:tB1psKsxlbooot5K@tribecca-arts.ioquqqp.mongodb.net/?retryWrites=true&w=majority',{
+const port = process.env.PORT || 8080;
+const mongoDB = process.env.DATABASE;
+
+
+mongoose.connect(mongoDB,{
     useNewUrlParser:true,
     useCreateIndex:true,
     useFindAndModify:false
@@ -15,7 +14,7 @@ mongoose.connect('mongodb+srv://Mon_Data_Base:tB1psKsxlbooot5K@tribecca-arts.ioq
 
 // node server
 app.listen(port,()=>{
-    console.log(`'server is listening on port ${port}`);
+    console.log(`'server is listening on port ${port}`)
 })
 //uncaught rejections
 

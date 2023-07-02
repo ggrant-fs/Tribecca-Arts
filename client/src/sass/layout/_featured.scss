@@ -33,11 +33,16 @@
        }
       }
 
-      
+      @media(max-width:25rem){
+         
+         .featured__img{
+            width:100vw;
+         }
+      }
       
    }
  
-   @media (max-width:46.88rem){
+   @media(max-width:46.88rem){
       .featured-container{
          display: flex;
          flex-direction: column;
@@ -45,9 +50,6 @@
       }
    }
 
-
-//   @media (max-width:23.44rem){
-//    .featured-container{
-//       display: none;
-//    }
-//   }
+ @media(max-width:25rem){
+   
+ }

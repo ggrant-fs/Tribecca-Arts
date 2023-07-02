@@ -6,10 +6,25 @@
    justify-content: space-around;
    align-items: center;
    height:17.75rem;
+
    .art__item{
      width:15.25rem;
      height:16rem;
      background-color:red;
+     color:aqua;
    }
 }
 
+.art-container:last-child{
+  margin-bottom: 40px;
+}
+figure{
+  margin:0;
+  text-align: center;
+}
+
+
+.art__img{
+  width:15.25rem;
+  height:16rem;
+}

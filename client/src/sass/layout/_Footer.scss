@@ -5,7 +5,7 @@
     display:flex;
     flex-direction: row;
     @include mixins.footer-position(static,0%,0%);
-    @include mixins.size(100%, 15rem);
+    @include mixins.size(100%, 9rem);
     background-color: variables.$footer;
 
     .footer-menu{

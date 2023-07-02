@@ -7,7 +7,8 @@ import Exhibitions from '../componenets/Exhibitions';
 const Home =(props)=>{
     return(
        <Fragment>
-         <Layout image={photo}>
+         <Layout className="home-banner"image={photo}>
+      
          <Sectional>
           <h3 className="section-title">Featured Artist</h3>
          </Sectional>
